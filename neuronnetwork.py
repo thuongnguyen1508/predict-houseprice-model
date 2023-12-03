@@ -98,7 +98,7 @@ history = model.fit(
 #                       Save model                              #
 #######################    
 # 1. Save the trained model to a file
-joblib.dump(model, 'trained_model.joblib')
+joblib.dump(model, 'neuronnetwork_price_predict_model.joblib')
 
 # ... Later in your code or another script ...
 
